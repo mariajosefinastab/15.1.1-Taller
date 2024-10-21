@@ -1,10 +1,43 @@
 .carousel-item {
     height: 100px; 
-    background-color: #f8f9fa; 
+
     text-align: center;
   }
 
   .list-group {
     width: 250px;
+    top: 400px;
+    padding-left: 20px;
   }
   
+  h1 {
+    text-align: center;
+  }
+
+  .text {
+    text-align: justify;
+    text-justify: inter-word;
+    column-count: 3;
+    background-color: #f8f9fa;
+  }
+
+  #options {
+    display: none;
+  }
+
+/*   .container .col-md-3 {
+    background-color: #f8f9fa;
+    text-align: justify;
+    text-justify: inter-word;
+  } */
+
+/*   #options ul.list-group .list-group-item {
+    text-align: left;
+    padding-left: 20px;
+  } */
+
+/*   main p {
+    text-align: justify;
+    text-justify: inter-word;
+    column-count: 3;
+  } */

@@ -15,14 +15,18 @@
 
 .col-sm-9 {
   text-align: justify;
-}
+} 
 
 .col-sm-9 .row{
   background-color: #f8f9fa ;
+  padding: 10px;
 }
 
-main p {
-  text-align: center;
+.text {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
 }
 /* main p {
   text-align: justify;

@@ -14,16 +14,26 @@
     text-align: center;
   }
 
-  .text {
+.col-sm-9 {
+  text-align: justify;
+  background-color: #f8f9fa;
+
+}
+
+.text {
+  margin-bottom: 50px;
+}
+
+/*   .text {
     text-align: justify;
     text-justify: inter-word;
     column-count: 3;
     background-color: #f8f9fa;
-  }
+  } */
 
-  #options {
+/*   #options {
     display: none;
-  }
+  } */
 
 /*   .container .col-md-3 {
     background-color: #f8f9fa;

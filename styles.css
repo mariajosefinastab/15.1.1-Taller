@@ -1,25 +1,28 @@
 .carousel-item {
-    height: 100px; 
-    text-align: center;
-  }
+  height: 100px; 
+  text-align: center;
+}
 
-  .list-group {
-    width: 250px;
-    top: 400px;
-    padding-left: 20px;
-  }
-  
-  h1 {
-    text-align: center;
-  }
+.list-group {
+  width: 100%; /* Ajusta a pantalla completa en pantallas pequeñas */
+  max-width: 300px; /* Mantiene un ancho en pantallas grandes */
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
 
 .col-sm-9 {
   text-align: justify;
-} 
+  padding: 1rem;
+}
 
-.col-sm-9 .row{
-  background-color: #f8f9fa ;
+.col-md-9 .row mb-3 {
+  background-color: #f8f9fa;
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .text {
@@ -28,6 +31,39 @@
   padding: 0;
   box-sizing: content-box;
 }
+
+/*SM*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #content .col-sm-9 {
+    margin-top: 1rem;
+  }
+}
+
+/* MS*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .list-group {
+    width: 200px; /* Reduce el ancho en pantallas medianas */
+  }
+}
+
+/* LG*/
+@media (min-width: 992px) {
+  #content {
+    display: flex;
+  }
+}
+
+/* .col-sm-9 .row {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 10px;
+} */
+ 
 /* main p {
   text-align: justify;
   text-justify: inter-word;
